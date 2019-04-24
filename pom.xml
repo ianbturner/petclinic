@@ -8,7 +8,7 @@
 
 
     <modules>
-        <module>pet-clinc-data</module>
+        <module>pet-clinic-data</module>
         <module>pet-clinic-web</module>
     </modules>
 
@@ -27,10 +27,8 @@
 
     <properties>
         <java.version>1.8</java.version>
-        <start-class>com.turnersmithson.petclinic.PetClincApplication</start-class>
+        <start-class>com.turnersmithson.petclinic.PetClinicApplication</start-class>
     </properties>
-
-
 
     <build>
         <plugins>
@@ -40,6 +38,14 @@
                 <configuration>
                     <goals>install</goals>
                     <autoVersionSubmodules>true</autoVersionSubmodules>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <mainClass>com.turnersmithson.petclinic.PetClinicApplication</mainClass>
                 </configuration>
             </plugin>
         </plugins>
