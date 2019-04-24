@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.turnersmithson</groupId>
-    <artifactId>pet-clinc</artifactId>
+    <artifactId>pet-clinic</artifactId>
     <version>0.0.1</version>
 
 
@@ -14,7 +14,7 @@
 
     <packaging>pom</packaging>
 
-    <name>pet-clinc</name>
+    <name>pet-clinic</name>
     <description>Pet clinic</description>
 
 
@@ -53,6 +53,6 @@
 
     <scm>
         <developerConnection>scm:git:https://github.com/ianbturner/petclinic.git</developerConnection>
-      <tag>pet-clinc-0.0.1</tag>
+      <tag>pet-clinic-0.0.1</tag>
   </scm>
 </project>
